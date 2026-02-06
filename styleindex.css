@@ -1,0 +1,28 @@
+/* The styles for the HTML elements */
+        header{
+            background-color:rgb(5, 195, 243);
+            height: 20%;
+        }
+
+        nav{
+            background-color:rgb(6, 252, 198);
+            width: 40%;
+            height: 60%;
+            float: top;
+            color:rgb(10, 10, 10);
+        }
+
+        main{
+            background-color:rgb(7, 173, 137);
+            height: 70%;
+        }
+        footer{
+            background-color:rgb(90, 116, 113);
+            clear: both;
+            height: 10%;
+
+        }
+
+        header h1{
+            color:rgb(114, 194, 114)
+        }

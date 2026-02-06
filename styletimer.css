@@ -1,0 +1,45 @@
+
+ header {
+  background-color: rgb(255, 255, 255);
+  height: 17%;
+ }
+
+ nav {
+  background-color:rgb(255, 255, 255);
+  width: 20%;
+  height: 35%;
+  float: top;
+  color: lightskyblue;
+  padding: 5px  5px;
+  margin-right: 40px;
+ }
+  body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: inline-flexbox;
+  justify-content: right;
+  align-items: right;
+  height: 50vh;
+  margin: 10;
+  background: linear-gradient(135deg, #6dd5ed, #2193b0);
+  color: rgb(14, 13, 13);
+}
+        #countdown {
+  background: rgb(0, 204, 255);
+  padding: 10px 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+#timer {
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+
+.timer-unit {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  display: -moz-inline-box;
+}

@@ -1,0 +1,31 @@
+/* Style for valid telephone input */
+input[type="tel"]:valid {
+  border: 2px solid #28a745;
+  outline: none;
+}
+
+/* Optional: Add a subtle box-shadow for better visual feedback */
+input[type="tel"]:valid {
+  border: 2px solid #28a745;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.3);
+}
+
+/* Base styling for the telephone input */
+input[type="tel"] {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Optional: Style for invalid input */
+input[type="tel"]:invalid {
+  border: 2px solid #dc3545;
+}
+
+/* Optional: Focus state */
+input[type="tel"]:focus {
+  outline: none;
+  border-color: #007bff;
+}

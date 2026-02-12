@@ -4,6 +4,11 @@
             height: 20%;
         }
 
+        title { background-color: skyblue;
+            height: 20%;}
+
+            h1 { background-color: skyblue;}
+
         nav{
             background-color:rgb(6, 252, 198);
             width: 40%;
@@ -11,11 +16,12 @@
             float: top;
             color:rgb(10, 10, 10);
         }
-
         main{
             background-color:rgb(7, 173, 137);
             height: 70%;
         }
+
+
         footer{
             background-color:rgb(90, 116, 113);
             clear: both;
